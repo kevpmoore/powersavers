@@ -1,0 +1,297 @@
+body { 
+  background: #ffffff; }
+
+#sidebar {
+  background: #ffffff;
+  display: none;}
+
+#nav-bar li select, #nav-bar li input {
+  display: none;}
+	
+
+#product-description ul p li{
+  border: 1px solid red;	
+  padding-bottom: 5px;
+}
+/*---------------*/
+.two_col, #wrapper.container, #content {
+  background-image: none;
+  background: #ffffff;
+}
+
+body.two-col #wrapper { background-image: url(../images/wrapper-back-2.png); }
+
+body.two-col #wrapper { 
+  background: #ffffff;
+  border: 1px solid gray;}
+
+
+/*-------------  Powersavers site*/
+
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	background: #EEE;
+	color: #4a4a4a;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+h1 {
+	display: none;
+}
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	float: right;
+}
+h2.sales {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin: 0;
+	background: #FFF;
+	border: 1px solid #ddd;
+	color:#bed434;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0 10px 0;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+h3.huge {
+	font-size: 28px;
+}
+h4 {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0;
+	margin: 5px auto;
+}
+#frame {
+	width: 1029px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	padding: 30px 0 0 0;
+}
+ul.nav {
+	list-style: none;
+	height: 40px;
+	margin: 10px 0 0 5px;
+	padding: 0;
+	border-left: 1px solid #DDD;
+}
+ul.nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+ul.nav li a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 28px;
+	background: #FFF;
+	text-align: center;
+	padding: 11px 0 0 0;
+	border: 1px solid #DDD;
+	border-left: none;
+	border-bottom: none;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	font-size: 15px;
+}
+ul.nav li.active a, ul.nav a:hover {
+	background: #bed434;
+	color: #FFF;
+}
+ul.promo {
+	list-style: none;
+	width: auto;
+	height: 412px;
+	background: #FFF;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #DDD;
+}
+ul.promo li {
+	margin: 0;
+	padding: 0;
+	width: 339px;
+	height: 206px;
+	float: left;
+}
+.approved {
+  background: #EEEEEE !important;}
+
+ul.approved {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto 0 auto;
+	width: 1017px;
+}
+ul.approved li {
+	margin: 0 20px 0 0;
+	padding: 0 0 0 45px;
+	width: 130px;
+	height: 106px;
+	float: left;
+}
+ul.approved li h5 {
+	font-weight: 100;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+ul.approved li p {
+	font-weight: 100;
+	font-size: 10px;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+ul.approved li#rohs {
+	background: url(../images/ico1.png) left top no-repeat;
+}
+ul.approved li#sa {
+	background: url(../images/ico2.png) left top no-repeat;
+	padding-left: 80px;
+}
+ul.approved li#ce {
+	background: url(../images/ico3.png) left top no-repeat;
+}
+ul.approved li#sabs {
+	background: url(../images/ico4.png) left top no-repeat;
+}
+ul.approved li#nom {
+	background: url(../images/ico5.png) left top no-repeat;
+}
+hr {
+	clear: both;
+	height: 1px;
+	background: #FFF;
+	border: none;
+}
+div#content {
+	width: auto;
+	background: #FFF;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+	border: 1px solid #DDD;
+}
+div#content .left {
+	float: left;
+	width: 339px;
+}
+div#content .right {
+	float: left;
+	width: 638px;
+	padding: 0 20px;
+}
+.row {
+	clear: left;
+	padding-top: 5px;
+}
+.row label {
+	display: block;
+	width: 200px;
+	font-size: 15px;
+	font-weight: bold;
+	float: left;
+}
+.row label strong {
+	font-size: 12px;
+}
+.row input {
+	border: 1px solid #DDD;
+	float: left;
+	width: 270px;
+	font-size: 15px;
+}
+.row textarea {
+	border: 1px solid #DDD;
+	float: left;
+	width: 270px;
+	font-size: 15px;
+}
+.btn {
+	clear: both;
+	padding: 5px 0 0 200px;
+}
+.btn input{
+	border: 1px solid #bed434;
+	background: #bed434;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 3px 15px;
+}
+#content h2 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0;
+	margin: 10px auto 20px auto;
+	float: none;
+}
+.news h3 {
+	margin: 0;
+	text-align: center;
+	border: none;
+	padding: 10px 0;
+	font-size: 20px;
+}
+.event {
+	clear: both;
+	border-top: 1px solid #CCC;
+	padding: 0 0 0 0;
+}
+.event h5 {
+	width: 470px;
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 30px 5px 0;
+	text-align: right;
+}
+.event p {
+	float: left;
+	width: 500px;
+	margin: 0;
+	padding: 5px 0 5px 0;
+	font-size: 14px;
+}
+
+.flare { color: #BED434;}
+.promo-box {
+	float: right;
+	margin: 0 0 10px 10px;
+	width: 220px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+p.auspost {
+	background: url(../images/auspost-icon.jpg) top left no-repeat;
+	padding: 7px 0 0 35px;
+	height: 30px;
+}
+
+#footer {
+  background: #EEEEEE;
+}
+
+	
+	

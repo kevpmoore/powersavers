@@ -3,7 +3,7 @@
 
 class ThemePowersaversExtension < Spree::Extension
   version "1.0"
-  description "Describe your extension here"
+  description "Extension for power savers website"
   url "http://yourwebsite.com/powersavers"
 
   # Please use powersavers/config/routes.rb instead for extension routes.
