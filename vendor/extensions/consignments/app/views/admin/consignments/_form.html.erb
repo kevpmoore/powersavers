@@ -1,0 +1,49 @@
+<div class="yui-gc">
+  <div class="yui-u first">
+    <%- locals = {:f => f} -%>
+      <% f.field_container :name do %>
+        <%= label_tag :name, t("name") %> <span class="required">*</span><br />
+        <%= text_field_tag 'product_name', @product.name, :class => 'fullwidth title', :disabled => true  %>
+      <% end %>
+
+      <% f.field_container :permalink do %>
+        <%= label_tag :permalink, t("permalink") %> <span class="required">*</span><br />
+        <%= text_field_tag 'product_permalink', @product.permalink, :class => 'fullwidth title', :disabled => true  %>
+      <% end %>
+
+      <% f.field_container :description do %>
+        <%= label_tag :description, t("description")%><br />
+        <%= text_area_tag 'product_description', @product.description, {:cols => 60, :rows => 4, :class => 'fullwidth', :disabled => true} %>
+      <% end %>
+  </div>
+  <div class="yui-u">
+  	  <%= f.hidden_field :id %>
+      <p>
+        <%= f.label :consignor_id, t("consignor")%><span class="required">*</span><br />
+        <%= f.collection_select(:consignor_id, @consignors, :id, :name, {:include_blank => true}, {"style" => "width:200px"}) %>
+        <%= f.error_message_on :consignor_id %>
+      </p>
+      <% unless @product.has_variants? %>
+        <p>
+          <%= label_tag @product.on_hand, t("on_hand")%><br />
+          <%= text_field_tag 'product_on_hand', @product.on_hand, :size => 4, :disabled => 'disabled' %>
+        </p>
+      <% end %>
+      <% f.field_container :commission do %>
+        <%= f.label :commission, t("commission")%> <span class="required">*</span><br />
+        <%= f.text_field :commission, :value => number_with_precision(@consignment.commission, :precision => 0), "style" => "width:25px"  %>%
+        <%= f.error_message_on :commission %>
+      <% end %>
+
+      <% f.field_container :paid do %>
+        <%= f.label :paid, t("paid")%><br />
+        <%= f.check_box :paid %> 
+        <%= f.error_message_on :paid %>
+      <% end %>
+
+      <% f.field_container :notes do %>
+        <%= f.label :notes, t("notes")%><br />
+        <%= f.text_area :notes, {:cols => 10, :rows => 4, :class => 'fullwidth'} %>
+      <% end %>
+  </div>
+</div>
