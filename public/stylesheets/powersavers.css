@@ -1,8 +1,8 @@
 body { 
-  background: #ffffff; }
+  background: #eee; }
 
 #sidebar {
-  background: #ffffff;
+  background: #eee;
   display: none;}
 
 #nav-bar li select, #nav-bar li input {
@@ -14,21 +14,23 @@ body {
   padding-bottom: 5px;
 }
 /*---------------*/
-.two_col, #wrapper.container, #content {
+.two_col, .container, #content {
   background-image: none;
   background: #ffffff;
+}
+
+#wrapper{
+  background: #eee;
 }
 
 body.two-col #wrapper { background-image: url(../images/wrapper-back-2.png); }
 
 body.two-col #wrapper { 
-  background: #ffffff;
-  border: 1px solid gray;}
+  background: #ffffff;}
 
 
 /*-------------  Powersavers site*/
 
-@charset "utf-8";
 /* CSS Document */
 body {
 	margin: 0;

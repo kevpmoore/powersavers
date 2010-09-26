@@ -1,0 +1,12 @@
+admin: 
+  name: admin
+  id: 1
+user: 
+  name: user
+  id: 2
+channel: 
+  name: channel
+  id: 3
+sales_rep: 
+  name: sales_rep
+  id: 4

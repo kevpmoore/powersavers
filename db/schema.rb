@@ -94,6 +94,41 @@ ActiveRecord::Schema.define(:version => 20100605152042) do
 
   add_index "configurations", ["name", "type"], :name => "index_configurations_on_name_and_type"
 
+  create_table "consignments", :force => true do |t|
+    t.integer  "consignor_id"
+    t.integer  "commission",   :default => 0,     :null => false
+    t.boolean  "paid",         :default => false
+    t.text     "notes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "consignments", ["consignor_id"], :name => "index_consignments_on_consignor_id"
+  add_index "consignments", ["id"], :name => "index_consignments_on_id"
+
+  create_table "consignors", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "address1"
+    t.string   "address2"
+    t.string   "city"
+    t.integer  "state_id"
+    t.string   "zip_code"
+    t.string   "phone"
+    t.string   "fax"
+    t.string   "email"
+    t.text     "notes"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "consignors", ["email"], :name => "index_consignors_on_email"
+  add_index "consignors", ["id"], :name => "index_consignors_on_id"
+  add_index "consignors", ["last_name"], :name => "index_consignors_on_last_name"
+  add_index "consignors", ["state_id"], :name => "index_consignors_on_state_id"
+  add_index "consignors", ["user_id"], :name => "index_consignors_on_user_id"
+
   create_table "countries", :force => true do |t|
     t.string  "iso_name"
     t.string  "iso"
@@ -321,9 +356,11 @@ ActiveRecord::Schema.define(:version => 20100605152042) do
     t.string   "meta_description"
     t.string   "meta_keywords"
     t.integer  "count_on_hand",        :default => 0,  :null => false
+    t.integer  "consignment_id"
   end
 
   add_index "products", ["available_on"], :name => "index_products_on_available_on"
+  add_index "products", ["consignment_id"], :name => "index_products_on_consignment_id"
   add_index "products", ["deleted_at"], :name => "index_products_on_deleted_at"
   add_index "products", ["name"], :name => "index_products_on_name"
   add_index "products", ["permalink"], :name => "index_products_on_permalink"
@@ -537,6 +574,17 @@ ActiveRecord::Schema.define(:version => 20100605152042) do
   end
 
   add_index "variants", ["product_id"], :name => "index_variants_on_product_id"
+
+  create_table "volume_prices", :force => true do |t|
+    t.integer  "variant_id"
+    t.string   "display"
+    t.string   "range"
+    t.decimal  "amount",     :precision => 8, :scale => 2
+    t.integer  "position"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "zone_members", :force => true do |t|
     t.integer  "zone_id"

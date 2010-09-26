@@ -1,0 +1,154 @@
+T-Shirts: 
+  position: 0
+  permalink: categories/clothing/shirts/t-shirts/
+  name: T-Shirts
+  lft: 6
+  id: 3000
+  parent_id: 2000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 7
+  icon_updated_at: 
+Bags: 
+  position: 1
+  permalink: categories/bags/
+  name: Bags
+  lft: 10
+  id: 1002
+  parent_id: 1000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 11
+  icon_updated_at: 
+Energy_Efficiency: 
+  position: 0
+  permalink: categories/energy-efficiency/
+  name: Energy Efficiency
+  lft: 2
+  id: 307170553
+  parent_id: 1000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 3
+  icon_updated_at: 
+Apache: 
+  position: 2
+  permalink: brands/apache/
+  name: Apache
+  lft: 20
+  id: 307170551
+  parent_id: 20000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 475199832
+  rgt: 21
+  icon_updated_at: 
+Ruby: 
+  position: 0
+  permalink: brands/ruby/
+  name: Ruby
+  lft: 18
+  id: 207281424
+  parent_id: 20000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 475199832
+  rgt: 19
+  icon_updated_at: 
+Ruby_on_Rails: 
+  position: 1
+  permalink: brands/ruby-on-rails/
+  name: Ruby on Rails
+  lft: 16
+  id: 31989848
+  parent_id: 20000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 475199832
+  rgt: 17
+  icon_updated_at: 
+Categories: 
+  position: 0
+  permalink: categories/
+  name: Categories
+  lft: 1
+  id: 1000
+  parent_id: 
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 14
+  icon_updated_at: 
+Shirts: 
+  position: 0
+  permalink: categories/clothing/shirts/
+  name: Shirts
+  lft: 5
+  id: 2000
+  parent_id: 1001
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 8
+  icon_updated_at: 
+Brand: 
+  position: 0
+  permalink: brands/
+  name: Brand
+  lft: 15
+  id: 20000
+  parent_id: 
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 475199832
+  rgt: 22
+  icon_updated_at: 
+Mugs: 
+  position: 2
+  permalink: categories/mugs/
+  name: Mugs
+  lft: 12
+  id: 1003
+  parent_id: 1000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 13
+  icon_updated_at: 
+Clothing: 
+  position: 0
+  permalink: categories/clothing/
+  name: Clothing
+  lft: 4
+  id: 1001
+  parent_id: 1000
+  icon_file_size: 
+  icon_file_name: 
+  icon_content_type: 
+  description: 
+  taxonomy_id: 854451430
+  rgt: 9
+  icon_updated_at: 

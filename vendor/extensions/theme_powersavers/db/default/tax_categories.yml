@@ -1,0 +1,15 @@
+Food: 
+  name: Food
+  is_default: false
+  id: 698318840
+  description: 
+GST: 
+  name: GST
+  is_default: true
+  id: 698318841
+  description: Goods and service tax
+Clothing: 
+  name: Clothing
+  is_default: false
+  id: 25484906
+  description: 

@@ -1,0 +1,260 @@
+Variant_381254278: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 706676762
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 381254278
+  sku: APC-00001
+  height: 
+  width: 
+Variant_205047256: 
+  price: 21.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 20.0
+  weight: 
+  id: 205047256
+  sku: ROR-00010
+  height: 
+  width: 
+Variant_97292824: 
+  price: 19.99
+  count_on_hand: 14
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 97292824
+  sku: ROR-00006
+  height: 
+  width: 
+Variant_52862384: 
+  price: 13.99
+  count_on_hand: 10
+  product_id: 248786582
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 11.0
+  weight: 
+  id: 52862384
+  sku: ROR-00014
+  height: 
+  width: 
+Variant_429921481: 
+  price: 17.99
+  count_on_hand: 10
+  product_id: 187438981
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 429921481
+  sku: ROR-00015
+  height: 
+  width: 
+Variant_325821322: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 325821322
+  sku: ROR-00001
+  height: 
+  width: 
+Variant_1025786064: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 1025786064
+  sku: ROR-001
+  height: 
+  width: 
+Variant_568516732: 
+  price: 19.99
+  count_on_hand: 1
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 568516732
+  sku: ROR-00007
+  height: 
+  width: 
+Variant_489273655: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1060500592
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 489273655
+  sku: ROR-00013
+  height: 
+  width: 
+Variant_1025786065: 
+  price: 1000.0
+  count_on_hand: 100
+  product_id: 1060500593
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 500.0
+  weight: 
+  id: 1025786065
+  sku: SH-00001
+  height: 
+  width: 
+Variant_1013589412: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 1013589412
+  sku: ROR-00002
+  height: 
+  width: 
+Variant_529709246: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 529709246
+  sku: ROR-00003
+  height: 
+  width: 
+Variant_504220342: 
+  price: 22.99
+  count_on_hand: 10
+  product_id: 723959550
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 21.0
+  weight: 
+  id: 504220342
+  sku: ROR-00012
+  height: 
+  width: 
+Variant_947339321: 
+  price: 19.99
+  count_on_hand: 3
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 947339321
+  sku: ROR-00004
+  height: 
+  width: 
+Variant_599112055: 
+  price: 16.99
+  count_on_hand: 10
+  product_id: 1035865702
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 15.0
+  weight: 
+  id: 599112055
+  sku: ROR-00016
+  height: 
+  width: 
+Variant_265742438: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 265742438
+  sku: ROR-00009
+  height: 
+  width: 
+Variant_215054540: 
+  price: 15.99
+  count_on_hand: 10
+  product_id: 459084718
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 13.0
+  weight: 
+  id: 215054540
+  sku: ROR-00011
+  height: 
+  width: 
+Variant_664770399: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 664770399
+  sku: ROR-00005
+  height: 
+  width: 
+Variant_461562682: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 569012001
+  is_master: true
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 461562682
+  sku: RUB-00001
+  height: 
+  width: 
+Variant_405540681: 
+  price: 19.99
+  count_on_hand: 10
+  product_id: 1025786064
+  is_master: false
+  depth: 
+  deleted_at: 
+  cost_price: 17.0
+  weight: 
+  id: 405540681
+  sku: ROR-00008
+  height: 
+  width: 

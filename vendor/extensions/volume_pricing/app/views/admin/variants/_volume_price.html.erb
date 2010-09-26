@@ -1,0 +1,24 @@
+<tr class="volume_price">
+  <td valign="top">
+    <%= error_message_on(f.object, :display) %>
+    <%= f.text_field(:display, :size => 10) %>
+  </td>
+  <td valign="top">
+    <%= error_message_on(f.object, :range) %>
+    <%= f.text_field(:range, :size => 10) %>
+  </td>
+  <td valign="top">
+    <%= error_message_on(f.object, :amount) %>
+    <%= f.text_field(:amount, :size => 10) %>
+  </td>
+  <td valign="top">
+    <%= error_message_on(f.object, :position) %>
+    <%= f.text_field(:position, :size => 3) %>
+  </td>
+  <td>
+    <%#= f.label :user_id, t("Business Channel")%><br />
+    <%= f.collection_select(:user_id, User.all, :id, :email, {:include_blank => true}, {"style" => "width:200px"}) %>
+    <%#= f.error_message_on :user %>
+  </td>
+  <td valign="top"><%= f.remove_link icon('delete') + ' ' + t("remove") %></td>
+</tr>

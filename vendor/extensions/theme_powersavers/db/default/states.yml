@@ -1,0 +1,295 @@
+New_South_Wales: 
+  name: New South Wales
+  country_id: 12
+  id: 1061493592
+  abbr: NSW
+Australian_Capital_Territory: 
+  name: Australian Capital Territory
+  country_id: 12
+  id: 1061493591
+  abbr: ACT
+Queensland: 
+  name: Queensland
+  country_id: 12
+  id: 1061493589
+  abbr: QLD
+Victoria: 
+  name: Victoria
+  country_id: 12
+  id: 1061493588
+  abbr: VIC
+Alabama: 
+  name: Alabama
+  country_id: 214
+  id: 1061493585
+  abbr: AL
+Minnesota: 
+  name: Minnesota
+  country_id: 214
+  id: 1032288924
+  abbr: MN
+Colorado: 
+  name: Colorado
+  country_id: 214
+  id: 536031023
+  abbr: CO
+Ohio: 
+  name: Ohio
+  country_id: 214
+  id: 485193526
+  abbr: OH
+Wetsern_Australia: 
+  name: Wetsern Australia
+  country_id: 12
+  id: 1061493587
+  abbr: WA
+Indiana: 
+  name: Indiana
+  country_id: 214
+  id: 769938586
+  abbr: IN
+Pennsylvania: 
+  name: Pennsylvania
+  country_id: 214
+  id: 471711976
+  abbr: PA
+Arkansas: 
+  name: Arkansas
+  country_id: 214
+  id: 471470972
+  abbr: AR
+Oklahoma: 
+  name: Oklahoma
+  country_id: 214
+  id: 248548169
+  abbr: OK
+Wisconsin: 
+  name: Wisconsin
+  country_id: 214
+  id: 103680699
+  abbr: WI
+West_Virginia: 
+  name: West Virginia
+  country_id: 214
+  id: 91367981
+  abbr: WV
+Illinois: 
+  name: Illinois
+  country_id: 214
+  id: 625629523
+  abbr: IL
+South_Dakota: 
+  name: South Dakota
+  country_id: 214
+  id: 615306087
+  abbr: SD
+Northern_Territory: 
+  name: Northern Territory
+  country_id: 12
+  id: 1061493593
+  abbr: NT
+Tasmania: 
+  name: Tasmania
+  country_id: 12
+  id: 1061493590
+  abbr: TAS
+South_Australia: 
+  name: South Australia
+  country_id: 12
+  id: 1061493586
+  abbr: SA
+Maine: 
+  name: Maine
+  country_id: 214
+  id: 1055056709
+  abbr: ME
+Michigan: 
+  name: Michigan
+  country_id: 214
+  id: 931624400
+  abbr: MI
+New_York: 
+  name: New York
+  country_id: 214
+  id: 889445952
+  abbr: NY
+New_Hampshire: 
+  name: New Hampshire
+  country_id: 214
+  id: 426832442
+  abbr: NH
+Vermont: 
+  name: Vermont
+  country_id: 214
+  id: 989115415
+  abbr: VT
+Idaho: 
+  name: Idaho
+  country_id: 214
+  id: 982433740
+  abbr: ID
+Kansas: 
+  name: Kansas
+  country_id: 214
+  id: 969722173
+  abbr: KS
+Mississippi: 
+  name: Mississippi
+  country_id: 214
+  id: 532363768
+  abbr: MS
+California: 
+  name: California
+  country_id: 214
+  id: 276110813
+  abbr: CA
+Wyoming: 
+  name: Wyoming
+  country_id: 214
+  id: 66390489
+  abbr: WY
+Connecticut: 
+  name: Connecticut
+  country_id: 214
+  id: 69870734
+  abbr: CT
+Virginia: 
+  name: Virginia
+  country_id: 214
+  id: 41111624
+  abbr: VA
+District_of_Columbia: 
+  name: District of Columbia
+  country_id: 214
+  id: 6764998
+  abbr: DC
+New_Jersey: 
+  name: New Jersey
+  country_id: 214
+  id: 750950030
+  abbr: NJ
+Rhode_Island: 
+  name: Rhode Island
+  country_id: 214
+  id: 474001862
+  abbr: RI
+Kentucky: 
+  name: Kentucky
+  country_id: 214
+  id: 308473843
+  abbr: KY
+Oregon: 
+  name: Oregon
+  country_id: 214
+  id: 298914262
+  abbr: OR
+Iowa: 
+  name: Iowa
+  country_id: 214
+  id: 825306985
+  abbr: IA
+Missouri: 
+  name: Missouri
+  country_id: 214
+  id: 653576146
+  abbr: MO
+Texas: 
+  name: Texas
+  country_id: 214
+  id: 525212995
+  abbr: TX
+Washington: 
+  name: Washington
+  country_id: 214
+  id: 414569975
+  abbr: WA
+Hawaii: 
+  name: Hawaii
+  country_id: 214
+  id: 199950338
+  abbr: HI
+North_Carolina: 
+  name: North Carolina
+  country_id: 214
+  id: 177087202
+  abbr: NC
+Louisiana: 
+  name: Louisiana
+  country_id: 214
+  id: 37199952
+  abbr: LA
+Nebraska: 
+  name: Nebraska
+  country_id: 214
+  id: 673350891
+  abbr: NE
+Alaska: 
+  name: Alaska
+  country_id: 214
+  id: 403740659
+  abbr: AK
+North_Dakota: 
+  name: North Dakota
+  country_id: 214
+  id: 51943165
+  abbr: ND
+Utah: 
+  name: Utah
+  country_id: 214
+  id: 17199670
+  abbr: UT
+Arizona: 
+  name: Arizona
+  country_id: 214
+  id: 948208802
+  abbr: AZ
+Tennessee: 
+  name: Tennessee
+  country_id: 214
+  id: 726305632
+  abbr: TN
+South_Carolina: 
+  name: South Carolina
+  country_id: 214
+  id: 597434151
+  abbr: SC
+Florida: 
+  name: Florida
+  country_id: 214
+  id: 267271847
+  abbr: FL
+Nevada: 
+  name: Nevada
+  country_id: 214
+  id: 179539703
+  abbr: NV
+New_Mexico: 
+  name: New Mexico
+  country_id: 214
+  id: 69729944
+  abbr: NM
+Montana: 
+  name: Montana
+  country_id: 214
+  id: 999156632
+  abbr: MT
+Georgia: 
+  name: Georgia
+  country_id: 214
+  id: 876916760
+  abbr: GA
+Delaware: 
+  name: Delaware
+  country_id: 214
+  id: 721598219
+  abbr: DE
+Maryland: 
+  name: Maryland
+  country_id: 214
+  id: 480368357
+  abbr: MD
+Massachusetts: 
+  name: Massachusetts
+  country_id: 214
+  id: 385551075
+  abbr: MA

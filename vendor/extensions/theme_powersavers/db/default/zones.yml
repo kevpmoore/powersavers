@@ -1,0 +1,12 @@
+Australia: 
+  name: Australia
+  id: 3
+  description: Australia
+North_America: 
+  name: North America
+  id: 2
+  description: USA + Canada
+EU_VAT: 
+  name: EU_VAT
+  id: 1
+  description: Countries that make up the EU VAT zone.
