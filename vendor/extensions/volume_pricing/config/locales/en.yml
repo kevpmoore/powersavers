@@ -4,3 +4,8 @@ en:
   position: Position
   range: Range
   volume_prices: Volume Prices
+  channels: Channels
+  listing_channels: Listing Channels
+  new_channel: New Channel
+  channel_name: Name
+  channel_user: User

@@ -1,0 +1,12 @@
+<%= render :partial => 'admin/shared/configuration_menu' %>
+
+<h1><%= t("new_channel") %></h1>
+
+<%= error_messages_for :channel %>
+
+<% form_for(:channel, :url => collection_url) do |f| %>
+  <%= render :partial => "form", :locals => { :f => f, :channel_users => @channel_users } %>
+  <p>
+    <%= submit_tag t("create")%> or <%= link_to t("cancel"), admin_channels_path%>
+  </p>
+<% end %>

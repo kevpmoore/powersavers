@@ -1,0 +1,43 @@
+<%= render :partial => 'admin/shared/configuration_menu' %>
+<div class='toolbar'>
+  <ul class='actions'>
+    <li>
+      <p><%= button_link_to t("new_channel"), new_object_url, :icon => 'add' %></p>
+    </li>
+  </ul>
+  <br class='clear' />
+</div>
+
+<h1><%= t("listing_channels") %></h1>
+
+
+
+<table class="index" width="545">
+  <thead>
+    <tr>
+      <th>
+        <%=t("channel_name")%>
+      </th>
+      <th>
+        <%=t("channel_user")%>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @channels.each do |channel| %>
+      <tr class="<%= cycle('even', 'odd') %>" id="<%= dom_id channel %>" >
+        <td>
+          <%= channel.name %>
+        </td>
+        <td>
+          <%= channel.user.email %>
+        </td>
+        <td>
+          <%= link_to_edit channel %> |
+          <%#= link_to_with_icon 'exclamation', t("consignments"), consignments_admin_consignor_path(consignor.id) %> |
+          <%= link_to_delete channel %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

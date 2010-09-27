@@ -80,6 +80,14 @@ class VolumePricingExtension < Spree::Extension
        end
      end
     end
+    
+    
+    User.class_eval do
+      has_one :channel
+      named_scope :has_channel, {:include => :role, :conditions => ["roles.name = 'channel'"]}
+#      named_scope :is_consignment, {:include => :product, :conditions => ["products.consignment_id IS NOT NULL"]}
+# u.roles.map(&:id).include?(1)
+    end    
 
 #    module Spree::Site::ProductsController
 #      def self.included(controller)
