@@ -15,10 +15,9 @@
     <%= error_message_on(f.object, :position) %>
     <%= f.text_field(:position, :size => 3) %>
   </td>
-  <td>
-    <%= @business_channels.to_yaml%>
+  <td>    
     <%#= f.label :user_id, t("Business Channel")  @business_channels%>
-    <%= f.collection_select(:user_id, User.all(:order => 'email'), :id, :email, {:include_blank => true}, {"style" => "width:200px"}) %>
+    <%= f.collection_select(:user_id , @channel_users, :user_id, :name, {:include_blank => true}, {"style" => "width:200px"}) %>
     <%= error_message_on(f.object, :user) %>
   </td>
   <td valign="top"><%= f.remove_link icon('delete') + ' ' + t("remove") %></td>

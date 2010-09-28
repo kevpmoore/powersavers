@@ -13,12 +13,18 @@ class VolumePricingExtension < Spree::Extension
       
       # calculates the price based on quantity
       def volume_price(quantity)
+          user_id = 0
+
+          if UserSession.activated?
+            current_user_session = UserSession.find
+            user_id = current_user_session.user.id if current_user_session
+          end
         volume_prices.each do |price|
-          puts price.display
-          return price.amount if price.include?(quantity) && price.display.include?('channel1')
-#          && price.user = current_userl
+          return price.amount if price.include?(quantity) && price.user_id == user_id
         end
+
         self.price
+        
       end
       
     end
@@ -80,36 +86,20 @@ class VolumePricingExtension < Spree::Extension
        end
      end
     end
-    
-    
+
     User.class_eval do
       has_one :channel
-      named_scope :has_channel, {:include => :role, :conditions => ["roles.name = 'channel'"]}
-#      named_scope :is_consignment, {:include => :product, :conditions => ["products.consignment_id IS NOT NULL"]}
-# u.roles.map(&:id).include?(1)
-    end    
+     
+    end
 
-#    module Spree::Site::ProductsController
-#      def self.included(controller)
-#        controller.class_eval do
-#          controller.append_before_filter :load_users
-#        end
-#      end
+#    Admin::ProductsController.class_eval do
+#      before_filter :load_users
 #
 #      def load_users
-#        @business_channels = User.all
+#       @channel_users = User.all(:joins => "JOIN roles_users r ON r.user_id = users.id",
+#      :conditions => ["role_id = ?", 3])
 #      end
 #    end
-
-    Admin::ProductsController.class_eval do
-      before_filter :load_users
-      
-      def load_users
-#        @tax_categories = TaxCategory.find(:all, :order=>"name")
-#        @shipping_categories = ShippingCategory.find(:all, :order=>"name")
-        @business_channels = User.all
-      end
-    end
 
     Admin::VariantsController.class_eval do
       update.before do
@@ -129,6 +119,16 @@ class VolumePricingExtension < Spree::Extension
       def volume_prices
         @variant = object
         @product = @variant.product
+      end
+
+      before_filter :load_users
+
+      def load_users
+       @channel_users = Channel.all
+#         User.all(
+#         :joins => "JOIN roles_users r ON r.user_id = users.id JOIN channels c ON c.user_id = users.id ",
+#         :conditions => ["role_id = ?", 3]
+#       )
       end
 
     end

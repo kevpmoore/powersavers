@@ -1,6 +1,6 @@
 class Admin::ChannelsController < Admin::BaseController
   resource_controller
-  before_filter :load_data, :only => [:new, :edit]
+  before_filter :load_data, :only => [:new, :edit, :create]
 
   def index
     @channels = Channel.paginate(:all,
@@ -16,27 +16,10 @@ class Admin::ChannelsController < Admin::BaseController
     wants.html { redirect_to collection_url }
   end
 
-#  def consignments
-#    @consignments = Consignment.find(:all,
-#      :conditions => {:consignor_id => params[:id]},
-#      :include => :products,
-#      :order => 'consignments.id, products.name')
-#    @consignor = Consignor.find(params[:id])
-#  end
-
-  def remove_consignment
-    product = Product.find(params[:product_id])
-    consignment_id = product.consignment_id
-    Product.update(params[:product_id], :consignment_id => nil)
-    if Product.find_by_consignment_id(consignment_id) == nil
-      Consignment.destroy(consignment_id)
-    end
-  end
-
   private
 
   def load_data
-#    default_country = Country.find Spree::Config[:default_country_id]
-    @channel_users = User.all #has_channels
+    @channel_users = User.all(:joins => "JOIN roles_users r ON r.user_id = users.id",
+      :conditions => ["role_id = ?", 3])
   end
 end

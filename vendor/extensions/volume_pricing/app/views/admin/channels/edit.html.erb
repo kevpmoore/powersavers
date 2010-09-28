@@ -1,14 +1,11 @@
-<%= hook :admin_user_edit_form_header do %>
-  <%= render 'shared/error_messages', :target => @user %>
-  <h1><%= t("editing_user") %></h1>
-<% end %>
+<%= render :partial => 'admin/shared/configuration_menu' %>
 
-<%= hook :admin_user_edit_form do %>
-  <%= form_for(:user, :url => object_url, :html => { :method => :put }) do |f| %>
-    <%= render :partial => "form", :locals => { :f => f } %>
+<h1><%= t("editing_channel") %></h1>
+<%= error_messages_for :channel %>
 
-    <%= hook :admin_user_edit_form_buttons do %>
-      <%= render :partial => "admin/shared/edit_resource_links" %>
-    <% end %>
-  <% end %>
+<% form_for(:channel, :url => object_url, :html => { :method => :put }) do |f| -%>
+  <%= render :partial => "form", :locals => { :f => f, :channel_users => @channel_users } %>
+  <p>
+    <%=submit_tag t("update")%> or <%= link_to t("cancel"), admin_channels_path%>
+  </p>
 <% end %>
